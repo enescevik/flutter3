@@ -1,0 +1,39 @@
+{
+    "title": "Flutter 3",
+    "version": "Version: {}",
+    "base_url_empty": "Environment not set! Please choose environment from configuration screen.",
+    "widget": {
+        "choose": "Choose...",
+        "warning": "Warning",
+        "close": "Close",
+        "yes": "Yes",
+        "no": "No",
+        "next": "Next"
+    },
+    "settings": {
+        "title": "Settings",
+        "common": "Common",
+        "language": "Language",
+        "environment": {
+            "title": "Environment",
+            "prod": "Production",
+            "test": "Test"
+        },
+        "display": {
+            "title": "Display",
+            "theme_mode": "Theme Mode",
+            "system": "System",
+            "light": "Light",
+            "dark": "Dark"
+        }
+    },
+    "login": {
+        "username": "Username",
+        "password": "Password",
+        "login": "LOGIN",
+        "reset_password": "Reset Password?",
+        "username_empty": "Enter your username!",
+        "password_empty": "Enter your password!",
+        "logging": "Logging..."
+    }
+}
