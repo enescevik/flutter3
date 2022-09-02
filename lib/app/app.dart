@@ -1,4 +1,5 @@
 import 'package:flutter3/apis/authenticate_api.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
@@ -16,6 +17,7 @@ import '../views/settings/settings_view.dart';
     transitionsBuilder: TransitionsBuilders.slideLeftWithFade,
   ),
 ], dependencies: [
+  Singleton(classType: SharedPreferences),
   Singleton(classType: DialogService),
   Singleton(classType: SnackbarService),
   Singleton(classType: BottomSheetService),
