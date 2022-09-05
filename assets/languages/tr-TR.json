@@ -32,8 +32,8 @@
         "password": "Parola",
         "login": "GİRİŞ YAP",
         "reset_password": "Şifremi Unuttum?",
-        "username_empty": "Kullanıcı adınızı girin!",
-        "password_empty": "Parolanızı girin!",
+        "username_empty": "Kullanıcı adını girin!",
+        "password_empty": "Parolayı girin!",
         "logging": "Giriş yapılıyor..."
     }
 }

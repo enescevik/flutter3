@@ -44,9 +44,10 @@ class LoginView extends StatelessWidget {
 class _Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.symmetric(horizontal: 80.0),
-      child: Image(image: AssetImage('assets/images/logo.png')),
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 80.0),
+      constraints: const BoxConstraints(maxWidth: 400.0),
+      child: const Image(image: AssetImage('assets/images/logo.png')),
     );
   }
 }
